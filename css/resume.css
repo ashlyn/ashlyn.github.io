@@ -5,6 +5,13 @@ table {
 
 col .col1 {
 	width:  35%;
+}
+
+col .wcol1 {
+	width:  20%;
+}
+
+col .col1, col .wcol1 {
 	margin-right: 10px;
 }
 
@@ -12,7 +19,7 @@ col .col2 {
 	width:  15%;
 }
 
-td .inst {
+td .inst, td pos {
 	vertical-align: top;
 }
 
