@@ -3,8 +3,19 @@ table {
 	width:  90%;
 }
 
+h4 {
+	color:  #38A7BE;
+}
+
 col .col1 {
 	width:  35%;
+}
+
+col .wcol1 {
+	width:  20%;
+}
+
+col .col1, col .wcol1 {
 	margin-right: 10px;
 }
 
@@ -12,7 +23,7 @@ col .col2 {
 	width:  15%;
 }
 
-td .inst {
+td .inst, td pos {
 	vertical-align: top;
 }
 
@@ -20,12 +31,23 @@ td .details {
 	padding-bottom: 25px;
 }
 
-td a {
-	color:  #38A7BE;
+a {
 	text-decoration: none;
 }
 
+td a {
+	color:  #8B8C87;
+}
+
 td a:hover {
+	color:  #7C7D78;
+}
+
+h4 a {
+	color:  #38A7BE;
+}
+
+h4 a:hover {
 	color:  #3295A9;
 }
 
