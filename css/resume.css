@@ -3,6 +3,10 @@ table {
 	width:  90%;
 }
 
+h4 {
+	color:  #38A7BE;
+}
+
 col .col1 {
 	width:  35%;
 }
@@ -27,12 +31,23 @@ td .details {
 	padding-bottom: 25px;
 }
 
-td a {
-	color:  #38A7BE;
+a {
 	text-decoration: none;
 }
 
+td a {
+	color:  #8B8C87;
+}
+
 td a:hover {
+	color:  #7C7D78;
+}
+
+h4 a {
+	color:  #38A7BE;
+}
+
+h4 a:hover {
 	color:  #3295A9;
 }
 
